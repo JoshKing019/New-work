@@ -4,7 +4,49 @@
     padding: 0%;
     box-sizing: border-box;}
 
+ a{text-decoration: none;}
+
 html,body{
     overflow-x:hidden;
     scroll-behavior: smooth;
+}
+ 
+.TheTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 35px;
+}
+
+.firstlink a{
+  padding:0 10px;
+    color: #242d52;
+    font-size: 15px;
+}
+
+.josh2{
+  width: 100%;
+  padding: 100px Auto;
+  padding-bottom: 50px;
+}
+.Josh3{
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.065;
+  margin-bottom: 0.7em;
+  font-size: calc(clamp(3.25em, 7vw, 8em) * .575);
+  padding-left: 200px;
+  padding-right: 400px;
+  padding-top: 100px;
+}
+
+.Josh4{
+  padding:10px 210px;
+}
+
+.Josh4 a{
+  background-color:black;
+  border-radius: 60px;
+  padding: 20px 30px;
+  color: white;
 }
